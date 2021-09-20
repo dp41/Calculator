@@ -1,0 +1,67 @@
+.title{
+    position: absolute;
+    text-align: center;
+    margin: 10px;
+    border: 2px solid black;
+    text-align: center;
+    color: rgb(152, 152, 156);
+    font-weight: bold;
+    font-size: 20px;
+    left: 20px;
+    top: 20px;
+    width: 40vw;
+}
+
+table{
+    margin: 10px;
+    width: 28vw;
+}
+
+.btn {
+    width: 9vw;
+    height: 8vh;
+    border: 1px solid rgb(102, 100, 100);
+}
+
+input[type = text]{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 27vw;
+    height: 7.5vh;
+}
+
+@media (max-width: 700px){
+    table {
+        margin: 10px 5px 10px 5px;
+        width: 75vw;
+    }
+
+.title {
+    position: absolute;
+    text-align: center;
+    margin: 10px;
+    border: 2px solid black;
+    text-align: center;
+    color: rgb(152, 152, 156);
+    font-weight: bold;
+    font-size: 20px;
+    left: 20px;
+    top: 20px;
+    width: 80vw;
+}
+.btn {
+    width: 16vw;
+    height: 7vh;
+    border: 1px solid rgb(102, 100, 100);
+}
+input[type = text] {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 53vw;
+    padding-top: 28px;
+    height: 5vh;
+    padding-bottom: 12px;
+}
+}
