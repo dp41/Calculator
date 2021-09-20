@@ -1,0 +1,27 @@
+.title{
+    margin: 10px;
+    /* border: 2px solid black; */
+    text-align: center;
+    width: 216px;
+    color: rgb(152, 152, 156);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+table{
+    margin: 10px;
+}
+
+.btn{
+    width: 100%;
+    border: 1px solid rgb(102, 100, 100);
+}
+
+input[type = text]{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 4px;
+}
